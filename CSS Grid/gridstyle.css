@@ -1,0 +1,21 @@
+.child{
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(4, 2fr);
+    gap: 1px;
+	grid-template-rows: repeat(8, 100px);
+}
+.child1, .child2, .child9, .child10{
+ grid-column: span 2;
+}
+.child3, .child6{
+    grid-row: span 6;
+}
+.child4, .child5, .child7, .child8{
+    grid-row: span 3;
+   }
