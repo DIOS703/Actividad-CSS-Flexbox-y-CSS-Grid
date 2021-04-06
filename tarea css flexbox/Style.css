@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+
+:root {
+	--primary-dark-cyan: hsl(185, 75%, 39%);
+	--primary-very-dark-blue: hsl(229, 23%, 23%);
+	--primary-dark-blue: hsl(227, 10%, 46%);
+	--dark_gray: hsl(0, 0%, 91%);
+}
+
+html,
+body{
+	font-family: 'Kumbh Sans', sans-serif;
+	font-size: 18px;
+	background-color: var(--primary-dark-cyan);
+}
+
+.flex-container{
+	margin-top: 100px;
+	display: flex;
+	justify-content: center;
+}
+.flex-item {
+	background: white;
+	font-weight: bold;
+	text-align: center;
+	height: auto;
+	width: auto;
+	border-radius: 20px;
+  }
+  .imagen{
+	  margin-top: 100px;
+	  margin-left: 100px;
+	  margin-right: 100px;
+	  border-color:white;
+	  border-style: solid;
+	  border-radius: 80px;
+	  border-width: 5px;
+  }
+  .fondo{
+	background-image: url(./images/bg-pattern-card.svg);
+	background-repeat: no-repeat;
+  }
+  .titulo{
+	  width: 100%;
+	  font-weight: 700;
+	  color: var(--primary-dark-blue) ;
+	  margin: 10px;
+  }
+  .sub{
+	  font-size: 13px;
+	  font-weight: 400 !important;
+	color: var(--primary-dark-blue) ;
+  }
+  .numeros{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap ;
+}
+  .mini-flex{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap ;
+	margin-bottom: 20px;
+  }
+  .mini-flex2{
+	border-top: 1px solid rgba(156, 155, 156, 0.2);
+	  margin: 1px 3px 15px 3px;
+	  padding-top: 10px;
+	display: flex;
+	justify-content: center;
+	flex-wrap: nowrap ;
+  }
+  .desc{
+	  width: 100%;
+	  font-weight: 400 !important;
+	  color: var(--primary-dark-blue) ;
+  }
+  .num{
+	color: (--primary-very-dark-blue);
+	margin: 8px;
+	width: 100%;
+}
+
